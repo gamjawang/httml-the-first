@@ -40,7 +40,7 @@ function hide() {
   document.getElementById('desc').innerHTML = ''
 }
 
-function showjs() {
+function showgamjatang() {
   document.getElementById('fig').src = 'img/gamjatang.png'
-  document.getElementById('desc').innergamjatnag = '<b>gamjatnag</b>은 맛있다. '
+  document.getElementById('desc').innerHTML = '<b>감자탕</b>은 맛있다. '
 }
