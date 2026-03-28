@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>웹프로그래밍 데모</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">WebDemo</div>
+        <ul class="nav">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="about.html">About</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+          <li>
+            <a href="list.html">리스트</a>
+          </li>
+          <li>
+            <a href="table.html">시간표</a>
+          </li>
+          <li>
+            <a href="music.html">music</a>
+          </li>
+          <li>
+            <a href="form.html">login</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <form action="">
+      <fieldset>
+        <legend>로그인</legend>
+        <label for="user-id">아이디입력</label>
+        <input
+          type="text"
+          id="user-id"
+          size="10"
+          value="가나다"
+          maxlength="20"
+        />
+        <br />
+        <label for="user-pass">비밀번호입력</label>
+        <input type="password" id="user-pass" size="10" />
+        <br />
+
+        <input type="submit" value="로그인" />
+      </fieldset>
+      <fieldset>
+        <legend>배송정보</legend>
+        search: <input type="search" name="" id="" /> <br />
+        URL: <input type="url" name="" id="" /> <br />
+        Email: <input type="email" name="" id="" /> <br />
+        tel: <input type="tel" name="" id="" /> <br />
+      </fieldset>
+    </form>
+    <form action="/action_page.php">
+      <label for="fname">First name:</label><br />
+      <input type="text" id="fname" name="fname" placeholder="John" /><br />
+      <label for="lname">Last name:</label><br />
+      <input
+        type="text"
+        id="lname"
+        name="lname"
+        placeholder="Doe"
+      /><br /><br />
+      <input type="submit" value="Submit" />
+      <input type="reset" value="Reset" />
+    </form>
+    <form>
+      <input type="radio" id="html" name="fav_language1" value="HTML" />
+      <label for="html">HTML</label><br />
+      <input type="radio" id="css" name="fav_language1" value="CSS" />
+      <label for="css">CSS</label><br />
+      <input
+        type="radio"
+        id="javascript"
+        name="fav_language1"
+        value="JavaScript"
+      />
+      <label for="javascript">JavaScript</label> <br />
+
+      <br />
+
+      <input type="radio" id="c" name="fav_language2" value="c" />
+      <label for="c">c</label><br />
+    </form>
+    <br />
+
+    <h2>checkbox</h2>
+    <form action="/action_page.php">
+      <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
+      <label for="vehicle1"> I have a bike</label><br />
+      <input type="checkbox" id="vehicle2" name="vehicle2" value="Car" />
+      <label for="vehicle2"> I have a car</label><br />
+      <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat" />
+      <label for="vehicle3"> I have a boat</label><br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <h1>input type</h1>
+    <form action="">
+      <input type="button" onclick="alert('Hello World!')" value="Click Me!" />
+      <button onclick="alert('Hello World!')" value="Click Me!">나클릭</button>
+    </form>
+    <br />
+    <form>
+      <label for="favcolor">Select your favorite color:</label>
+      <input type="color" id="favcolor" name="favcolor" />
+    </form>
+    <br />
+    <br />
+    <form>
+      <label for="cars">Choose a car:</label>
+      <select id="cars" name="cars">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="fiat">Fiat</option>
+        <option value="audi">Audi</option>
+      </select>
+    </form>
+  </body>
+</html>
